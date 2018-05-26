@@ -10,8 +10,7 @@ def oxford_comma(array)
       "#{array[0]} and #{array[1]}"
     else
       lastElement = array.pop
-      secondToLast = array.pop
-      lastElement = "#{secondToLast} and #{lastElement}"
+      lastElement = "and #{lastElement}"
       array.push(lastElement)
       array.join(", ")
   end
