@@ -1,6 +1,6 @@
 #array = ["fiddleheads","okra","kohlrabi"]
-#array = ["okra","kohlrabi"]
-array = ["kohlrabi"]
+array = ["okra","kohlrabi"]
+#array = ["kohlrabi"]
 
 def oxford_comma(array)
   case array.length
