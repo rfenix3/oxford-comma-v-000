@@ -17,4 +17,4 @@ def oxford_comma(array)
   end
 end
 
-puts oxford_comma(array).inspect
+#puts oxford_comma(array).inspect
